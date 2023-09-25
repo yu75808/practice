@@ -1,4 +1,4 @@
-
+@use 'base';
 
 .m_btn-wrapper{
     text-align: center;
@@ -6,4 +6,20 @@
 
 .m_btn{
     border-bottom: solid 1px #111;
+}
+
+.m_pickup{
+    
+    .m_pickup-txt{
+       margin-top: 10px ;
+       font-weight: bold;
+    }
+
+    .m_btn-wrapper{
+      
+
+        .m_btn{
+            font-size: 14px;
+        }
+    }
 }

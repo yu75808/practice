@@ -1,0 +1,45 @@
+.article-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .top_article{
+        .top_article_ttl{
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .top_aticle_meta{
+            margin-top: 10px;
+
+        .top_article_date{
+            font-size: 14px;
+        }
+
+        .top_article_category{
+            font-size: 14px;
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        }
+
+        .top_article_img-wrapper{
+            margin-top: 10px;
+        }
+
+        .top_article_txt{
+            width: 256px;
+            margin: 10px auto 0;
+         
+        }
+
+        .top_article_btn{
+            margin-top: 16px;
+        }
+
+    }
+
+}

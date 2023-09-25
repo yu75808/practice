@@ -1,9 +1,10 @@
 @charset "UTF-8";
 body {
   font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
 }
 
-.l_container {
+.l_inner {
   max-width: 1200px;
   padding-left: 16px;
   padding-right: 16px;
@@ -36,6 +37,14 @@ body {
 
 .m_btn {
   border-bottom: solid 1px #111;
+}
+
+.m_pickup .m_pickup-txt {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.m_pickup .m_btn-wrapper .m_btn {
+  font-size: 14px;
 }
 
 html {
@@ -183,5 +192,46 @@ legend {
 }
 
 .top_pickup-wrapper {
-  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.pickup_btn {
+  margin-top: 16px;
+}
+
+.article-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.article-wrapper .top_article .top_article_ttl {
+  font-size: 24px;
+  font-weight: bold;
+}
+.article-wrapper .top_article .top_aticle_meta {
+  margin-top: 10px;
+}
+.article-wrapper .top_article .top_aticle_meta .top_article_date {
+  font-size: 14px;
+}
+.article-wrapper .top_article .top_aticle_meta .top_article_category {
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.article-wrapper .top_article .top_article_img-wrapper {
+  margin-top: 10px;
+}
+.article-wrapper .top_article .top_article_txt {
+  width: 256px;
+  margin: 10px auto 0;
+}
+.article-wrapper .top_article .top_article_btn {
+  margin-top: 16px;
 }/*# sourceMappingURL=style.css.map */

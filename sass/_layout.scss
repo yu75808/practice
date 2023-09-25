@@ -1,7 +1,7 @@
 @use 'setting/variable' as v;
 
 
-.l_container{
+.l_inner{
     max-width: v.$content-width;
     padding-left: 16px;
     padding-right: 16px;

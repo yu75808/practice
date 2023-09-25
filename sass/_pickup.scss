@@ -1,0 +1,13 @@
+@use 'base';
+
+.top_pickup-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.pickup_btn{
+    margin-top: 16px;
+}
